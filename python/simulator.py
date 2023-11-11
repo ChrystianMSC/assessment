@@ -12,26 +12,37 @@ def generateRandomData():
     return dataType, protocol, utcTime, status, identifier
 
 def sendDataToServer(socket, udpIp, udpPort):
-    dataType, protocol, utcTime, status, identifier = generateRandomData()
+    try:
+        dataType, protocol, utcTime, status, identifier = generateRandomData()
 
-    packet = f">DATA{dataType},{protocol},{utcTime},{status};ID={identifier}<"
-    print("\nEnviando dado:")
-    print("\n" + packet)
-    socket.sendto(packet.encode('utf-8'), (udpIp, udpPort))
+        # Verifique se os dados são válidos antes de criar o pacote
+        if not (1 <= dataType <= 2) or not (66 <= protocol <= 68):
+            raise ValueError("Tipo de dados ou protocolo inválido")
+
+        packet = f">DATA{dataType},{protocol},{utcTime},{status};ID={identifier}<"
+        print("\nEnviando dado:")
+        print("\n" + packet)
+        socket.sendto(packet.encode('utf-8'), (udpIp, udpPort))
+    except ValueError as e:
+        print(f"Erro ao gerar dados: {e}")
+        # Aqui você pode adicionar qualquer lógica adicional ou tratamento necessário.
+
 
 def simulator(udpIp, udpPort):
     clientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     print("Simulador iniciado, dados serão enviados a cada 3 segundos. \nCtrl + C para encerrar o simulador")
-    time.sleep(3)
 
     try:
         while True:
             sendDataToServer(clientSocket, udpIp, udpPort)
-            time.sleep(3)
+            time.sleep(5)
     except KeyboardInterrupt:
         print("Simulador interrompido.")
     finally:
-        clientSocket.close()
+        closeSimulator(clientSocket)
+        
+def closeSimulator(clientSocket):
+    clientSocket.close()
 
 if __name__ == "__main__":
     udpIp = "127.0.0.1"
