@@ -32,7 +32,7 @@ function sendDataToServer(socket, udpIp, udpPort) {
 
 function simulator(udpIp, udpPort) {
     const clientSocket = dgram.createSocket('udp4');
-    console.log('Simulador iniciado, dados serão enviados a cada 3 segundos. \nCtrl + C para encerrar o simulador');
+    console.log('Simulador iniciado, dados serão enviados a cada 5 segundos. \nCtrl + C para encerrar o simulador');
     setTimeout(() => {
         const interval = setInterval(() => {
             sendDataToServer(clientSocket, udpIp, udpPort);

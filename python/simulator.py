@@ -30,7 +30,7 @@ def sendDataToServer(socket, udpIp, udpPort):
 
 def simulator(udpIp, udpPort):
     clientSocket = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
-    print("Simulador iniciado, dados serão enviados a cada 3 segundos. \nCtrl + C para encerrar o simulador")
+    print("Simulador iniciado, dados serão enviados a cada 5 segundos. \nCtrl + C para encerrar o simulador")
 
     try:
         while True:
