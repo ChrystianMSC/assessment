@@ -1,8 +1,7 @@
 # assessment
-
-O projeto foi realizado em duas linguagens diferentes, Python e Node.js
 [![My Skills](https://skillicons.dev/icons?i=py,nodejs)](https://skillicons.dev)
-Cada um dentro de suas respectivas pastas.
+
+O projeto foi realizado em duas linguagens diferentes, Python e Node.js Cada um dentro de suas respectivas pastas.
 
 Utilizando o pytest foram escritos testes, tanto para o simulador quanto o servidor em python.
 
@@ -18,7 +17,7 @@ cd assessment
 ```
 sudo apt-get install sqlite3
 ```
-No windows instalar o python no windows sqlite já é instalado
+No windows instalar o python já vem como o sqlite
 
 Instruções mais especificas de execução serão dadas a seguir.
 
@@ -78,6 +77,15 @@ cd python
 ```
 pip install pytest
 ```
+
+Algumas vezes no linux o python deve ser executado com python3.
+Alem disso para instalar o pytest no linux o seguinte deve ser feito:
+
+```
+sudo apt install python3-pytest
+```
+
+E ele deveser executado com ```pytest-3```
 
 - Agora execute tanto o servidor quando o simulador (em terminais diferentes) da seguinte forma:
 
