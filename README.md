@@ -9,10 +9,17 @@ Utilizando o pytest foram escritos testes, tanto para o simulador quanto o servi
 - Primeiramente clone este repositório.
 
 ```
-git clone https://github.com/ChrystianMSC/assessment 
+git clone https://github.com/ChrystianMSC/assessment
 ```
 
-- 
+- Certifique-se de ter o sqlite instalado
+
+```
+sudo apt-get install sqlite3
+```
+Ou pelo link se estiver no windows
+
+https://www.sqlite.org/index.html
 
 Instruções mais especificas de execução serão dadas a seguir.
 
@@ -23,15 +30,6 @@ Instruções mais especificas de execução serão dadas a seguir.
 Para executar o simulador e o servidor em Node.js o seguinte deve ser feito:
 
 - Certifique-se de ter o Node.js instalado https://nodejs.org/en/
-
-- Certifique-se de ter o sqlite instalado
-
-```
-sudo apt-get install sqlite3
-```
-Ou pelo link se estiver no windows
-
-https://www.sqlite.org/index.html
 
 - Com o repositório abeto na raiz do projeto navegue para a pasta *node*
 
