@@ -60,9 +60,12 @@ node simulator.js
 
 Agora acompanhe os envios de dados do simulador para o servidor, eles começaram a ser enviados depois de 5 segundos.
 
-#### Ctrl + C para finalizar o servidor e/ou o simulador
+
+## Ctrl + C para finalizar o servidor e/ou o simulador
 
 ---
+
+
 
 ### Python
 
