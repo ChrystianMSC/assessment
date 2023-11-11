@@ -56,7 +56,7 @@ def test_store_data_in_database(udp_server_instance):
 
     with sqlite3.connect('db/database.db') as conn:
         cursor = conn.cursor()
-        cursor.execute("SELECT * FROM devStatus;")
+        cursor.execute("SELECT * FROM devStatus WHERE type = 1 AND protocolo = 2 AND utc = '2021-01-01 12:34:56' AND status = 3 AND id = 'abc';")
         result = cursor.fetchone()
         assert result is not None
         assert result[0] == parsed_data["type"]

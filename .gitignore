@@ -6,6 +6,4 @@ npm-debug.log
 .DS_Store
 __pycache__
 .pytest_cache
-parsedData.json
-database.db
 package-lock.json
