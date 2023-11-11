@@ -78,6 +78,15 @@ cd python
 pip install pytest
 ```
 
+Algumas vezes no linux o python deve ser executado com python3.
+Alem disso para instalar o pytest no linux o seguinte deve ser feito:
+
+```
+sudo apt install python3-pytest
+```
+
+E ele deveser executado com ```pytest-3```
+
 - Agora execute tanto o servidor quando o simulador (em terminais diferentes) da seguinte forma:
 
 ```
