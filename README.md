@@ -58,7 +58,7 @@ Se algum erro ocorre na hora de executar o servidor, provavelmente será problam
 node simulator.js
 ```
 
-Agora acompanhe os envios de dados do simulador para o servidor.
+Agora acompanhe os envios de dados do simulador para o servidor, eles começaram a ser enviados depois de 5 segundos.
 
 ### Python
 
