@@ -36,7 +36,7 @@ function simulator(udpIp, udpPort) {
     setTimeout(() => {
         const interval = setInterval(() => {
             sendDataToServer(clientSocket, udpIp, udpPort);
-        }, 3000);
+        }, 5000);
 
         process.on('SIGINT', () => {
             clearInterval(interval);
