@@ -62,6 +62,8 @@ Agora acompanhe os envios de dados do simulador para o servidor, eles começaram
 
 #### Ctrl + C para finalizar o servidor e/ou o simulador
 
+---
+
 ### Python
 
 - Com o repositório abeto na raiz do projeto navegue para a pasta *python*
