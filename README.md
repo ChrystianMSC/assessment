@@ -10,6 +10,7 @@ Utilizando o pytest foram escritos testes, tanto para o simulador quanto o servi
 
 ```
 git clone https://github.com/ChrystianMSC/assessment
+cd assessment
 ```
 
 - Certifique-se de ter o sqlite instalado
