@@ -101,3 +101,7 @@ pytest testServer.py
 ```
 pytest testSimulator.py
 ```
+
+
+## Ctrl + C para finalizar o servidor e/ou o simulador
+---
