@@ -1,0 +1,72 @@
+[
+    {
+        "type": 1,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:00",
+        "status": 1,
+        "id": "71F"
+    },
+    {
+        "type": 1,
+        "protocolo": 66,
+        "utc": "2023-11-11 15:47:03",
+        "status": 1,
+        "id": "4C6"
+    },
+    {
+        "type": 1,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:06",
+        "status": 0,
+        "id": "103"
+    },
+    {
+        "type": 2,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:09",
+        "status": 0,
+        "id": "7AE"
+    },
+    {
+        "type": 1,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:12",
+        "status": 0,
+        "id": "785"
+    },
+    {
+        "type": 1,
+        "protocolo": 67,
+        "utc": "2023-11-11 15:47:15",
+        "status": 0,
+        "id": "BA7"
+    },
+    {
+        "type": 2,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:18",
+        "status": 0,
+        "id": "BCA"
+    },
+    {
+        "type": 1,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:21",
+        "status": 1,
+        "id": "210"
+    },
+    {
+        "type": 1,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:24",
+        "status": 0,
+        "id": "9D8"
+    },
+    {
+        "type": 2,
+        "protocolo": 68,
+        "utc": "2023-11-11 15:47:27",
+        "status": 1,
+        "id": "E3D"
+    }
+]

@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "dgram": "^1.0.1",
+    "luxon": "^3.4.3",
     "moment": "^2.29.4",
-    "random": "^4.1.0",
     "sqlite3": "^5.1.6"
   }
 }
