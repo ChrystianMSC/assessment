@@ -10,6 +10,7 @@ Utilizando o pytest foram escritos testes, tanto para o simulador quanto o servi
 
 ```
 git clone https://github.com/ChrystianMSC/assessment
+cd assessment
 ```
 
 - Certifique-se de ter o sqlite instalado
@@ -17,9 +18,7 @@ git clone https://github.com/ChrystianMSC/assessment
 ```
 sudo apt-get install sqlite3
 ```
-Ou pelo link se estiver no windows
-
-https://www.sqlite.org/index.html
+No windows instalar o python no windows sqlite já é instalado
 
 Instruções mais especificas de execução serão dadas a seguir.
 
@@ -57,7 +56,14 @@ Se algum erro ocorre na hora de executar o servidor, provavelmente será problam
 node simulator.js
 ```
 
-Agora acompanhe os envios de dados do simulador para o servidor.
+Agora acompanhe os envios de dados do simulador para o servidor, eles começaram a ser enviados depois de 5 segundos.
+
+
+## Ctrl + C para finalizar o servidor e/ou o simulador
+
+---
+
+
 
 ### Python
 
@@ -93,3 +99,7 @@ pytest testServer.py
 ```
 pytest testSimulator.py
 ```
+
+
+## Ctrl + C para finalizar o servidor e/ou o simulador
+---
