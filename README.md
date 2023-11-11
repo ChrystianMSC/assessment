@@ -18,9 +18,7 @@ cd assessment
 ```
 sudo apt-get install sqlite3
 ```
-Ou pelo link se estiver no windows
-
-https://www.sqlite.org/index.html
+No windows instalar o python no windows sqlite já é instalado
 
 Instruções mais especificas de execução serão dadas a seguir.
 
