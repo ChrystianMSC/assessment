@@ -98,7 +98,7 @@ class UDPServer:
 
             existingJson.append(parsedData)
 
-            with open('json/parsedData.json', 'w') as jsonFile:
+            with open('../json/parsedData.json', 'w') as jsonFile:
                 json.dump(existingJson, jsonFile, indent=4)
 
         except Exception as e:
